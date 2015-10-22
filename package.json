@@ -1,0 +1,14 @@
+{
+  "name": "quicktimesheet",
+  "description": "Time sheet/wage calculator application prototype",
+  "version": "0.0.0",
+  "main": "server.js",
+  "repository": "",
+  "author": {
+    "name": "Ming Kai Chen",
+    "email": "mingkaichen2009@gmail.com"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
