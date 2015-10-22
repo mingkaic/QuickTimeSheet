@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <title>Quick Timesheet</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.0/css/bootstrap-responsive.min.css">
+        
+        <link rel="stylesheet" href="bower_components/fullcalendar/dist/fullcalendar.css"/>
+        
+        <link rel="stylesheet" href="css/mystyle.css"/>
+    </head>
+    <body>
+        <div class="container" ng-controller="CalendarCtrl">
+            <div class="navbar navbar-fixed-top navbar-inverse">
+                <div class="navbar-inner">
+                    <div class="pull-left" style="padding-left:15px; padding-top:15px;">
+                        <p class="brand" style="color:white">Quick Timesheet</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="myIntervals">
+                Day Shift<br>
+                Evening Shift<br>
+                Night Shift<br>
+            </div>
+            
+            <div id="TSView">
+                <div ui-calendar="uiConfig.calendar" class="span8 calendar" ng-model="eventSources"></div>
+            </div>
+            
+        </div>
+        <!--
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+        -->
+        
+        <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        
+        <script type="text/javascript" src="bower_components/moment/min/moment.min.js"></script>
+        <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+        <script type="text/javascript" src="bower_components/angular-ui-calendar/src/calendar.js"></script>
+        <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+        <script type="text/javascript" src="bower_components/fullcalendar/dist/fullcalendar.min.js"></script>
+        <script type="text/javascript" src="bower_components/fullcalendar/dist/gcal.js"></script>
+        
+        <script src="js/controller.js"></script>
+    </body>
+</html>

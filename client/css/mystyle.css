@@ -1,0 +1,18 @@
+body {
+    padding-top: 60px;
+}
+
+#TSView {
+    width:350px;
+    float:left;
+    padding:10px; 
+}
+
+#myIntervals {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px; 
+}
